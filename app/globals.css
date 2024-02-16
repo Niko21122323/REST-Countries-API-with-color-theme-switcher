@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* light */
+    --text-color: hsl(49, 65%, 10%);
+    --background-color: hsl(0, 0%, 97%);
+    --accent-color: hsl(0, 0%, 98%);
+
+    /* dark */
+    --text-color-d: hsl(49, 65%, 90%);
+    --background-color-d: hsl(60, 9%, 2%);
+    --accent-color-d: hsl(60, 6%, 7%);
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
